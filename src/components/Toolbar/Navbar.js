@@ -1,15 +1,24 @@
 import {Link} from "wouter";
-
-const POPULAR_GIFS = ['trending', 'rick', 'dog', 'games'];
+import {useEffect, useState} from "react";
+import getTrendingTerms from "../../services/getTrendingTerms";
 
 export default function Navbar() {
+    const [trends, setTrends] = useState([])
+
+    useEffect(function () {
+        getTrendingTerms()
+            .then(setTrends)
+    }, [])
+
     return (
         <ul className="navbar-nav me-auto">
-            {POPULAR_GIFS.map((popularGif => (
-                <li key={popularGif} className="nav-item">
-                    <Link to={`/gif/${popularGif}`} className="nav-link">Gifs de {popularGif}</Link>
-                </li>
-            )))}
+            {
+                trends.map((popularGif => (
+                    <li key={popularGif} className="nav-item">
+                        <Link to={`/gif/${popularGif}`} className="nav-link">{popularGif}</Link>
+                    </li>
+                )))
+            }
         </ul>
     )
 }

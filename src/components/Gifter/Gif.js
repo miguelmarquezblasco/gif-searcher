@@ -5,8 +5,8 @@ export default function Gif({id, title, url}) {
                 src={url}
                 alt={title}
                 className="d-block user-select-none"
-                width="100%"
-                height="100%"
+                width="400em"
+                height="400em"
                 loading="lazy"
             />
         </a>

@@ -2,7 +2,7 @@ import Gif from "./Gif";
 
 export default function GifList({gifs}) {
     return (
-        <div id="gifter" className="row hidden-md-up">
+        <div id="gifter" className="row hidden-md-up jumbotron justify-content-center">
             {
                 gifs.map(({id, title, url}) =>
                     <Gif
