@@ -5,9 +5,9 @@ It connects to [Giphy developers API](https://developers.giphy.com).
 
 ## External dependencies
 
--   [wouter]()
--   [just-debounce-it]()
--   [intersection-observer]()
+-   [wouter](https://github.com/molefrog/wouter)
+-   [just-debounce-it](https://github.com/mhrst/just_debounce_it)
+-   [intersection-observer](https://github.com/w3c/IntersectionObserver)
 
 ## After run project
 
