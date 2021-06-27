@@ -1,5 +1,5 @@
 import Searcher from "../Searcher/Searcher";
-import Navbar from "./Navbar";
+import Navbar from "./Navbar/Navbar";
 import {Link} from "wouter";
 
 export default function Toolbar() {

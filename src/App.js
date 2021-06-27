@@ -1,8 +1,8 @@
 import {Route} from "wouter";
 import Toolbar from "./components/Toolbar/Toolbar";
 import {useState} from "react";
-import {useGifs} from "./hooks/Gifs/useGifs";
-import Gifter from "./components/Gifter/Gifter";
+import {useGifs} from "./hooks/useGifs/useGifs";
+import Gifter from "./components/Gifs/Gifter/Gifter";
 import Spacer from "./components/Spacer/Spacer";
 
 export default function App() {

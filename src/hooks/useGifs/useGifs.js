@@ -1,4 +1,4 @@
-import getGifs from "../../services/getGifs";
+import getGifs from "../../services/getGifs/getGifs";
 import {useEffect, useState} from "react";
 
 const INITIAL_PAGE = 0;

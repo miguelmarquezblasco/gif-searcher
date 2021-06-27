@@ -1,6 +1,6 @@
 import {Link} from "wouter";
 import {useEffect, useState} from "react";
-import getTrendingTerms from "../../services/getTrendingTerms";
+import getTrendingTerms from "../../../services/getTrendingTerms/getTrendingTerms";
 
 export default function Navbar() {
     const [trends, setTrends] = useState([])

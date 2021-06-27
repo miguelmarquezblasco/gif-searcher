@@ -1,4 +1,4 @@
-import Gif from "./Gif";
+import Gif from "../Gif/Gif";
 
 export default function GifList({gifs}) {
     return (
