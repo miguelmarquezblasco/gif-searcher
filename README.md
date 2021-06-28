@@ -11,7 +11,7 @@ It connects to [Giphy developers API](https://developers.giphy.com).
 
 ## After run project
 
--   Create a ***settings.dist.js*** file cloning ***settings.js*** on ***/services*** and add your **API_KEY**
+-   Create a ***settings.js*** file cloning ***settings.dist.js*** on ***/services*** and add your **API_KEY**
 
 ## Available Scripts
 
@@ -25,8 +25,8 @@ You will also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
+Launches the test runner in the interactive watch mode.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
+Builds the app for production to the `build` folder.
